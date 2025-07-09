@@ -1,0 +1,559 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+body {
+    margin: 0%;
+    font-family: "Lexend", sans-sherif;
+}
+
+.haut {
+    
+    margin: 0%;
+    display: flex;
+    background-color: black;
+    color: #ffffff;
+    width: 100vw;
+
+
+}
+
+.haut img {
+    width: auto;
+    height: 120px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    margin-left: 15px;
+}
+
+
+.ListeSansPuces {
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    list-style-type: none;
+    margin-bottom: 4px;
+    font-size: 20px;
+
+
+
+    
+}
+
+.ListeSansPuces li {
+    display: inline-block;
+    margin: 0px;
+    padding-top: 85px;
+
+}
+
+.ListeSansPuces a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "Lexend", sans-sherif;
+
+}
+
+.TitrePage {
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    
+    
+    
+    
+}
+
+.SousTitre { 
+    font-family: "Lexend", sans-sherif;
+    font-size: 21px;
+    color: #969191;
+    
+
+}
+
+.ImgTitrePage {
+    width: auto;
+    height: 100px;
+}
+
+
+
+.conteneur {
+  display: flex;        
+  justify-content: left;
+  margin-left: 100px;
+  gap: 100px;            
+}
+
+.Description1 {
+  color: #969191;
+  font-family: "Roboto Flex", sans-serif;
+  flex: 1;              
+  justify-content: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  max-width: 500px;
+  width: 100%;
+  font-size: 20px;
+}
+
+.Description2 {
+    margin-top: 17px;
+  width: auto;
+  height: 480px;
+  border: 1px solid #969191;
+  border-radius: 10px;
+}
+
+footer {
+margin: 0%;
+    display: flex;
+    background-color: black;
+    color: #D2D2DA;
+    width: 100vw;
+    justify-content: center;
+}
+
+footer ul {
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    gap: 20px;
+    list-style-type: none;
+
+}
+
+.TitrePresentation {
+      display: flex;
+    justify-content: center;
+    width: 100vw;
+     font-family: "Lexend", sans-sherif;
+     margin-right: 12vw;
+     padding-top: 30px;
+    }
+
+    .TitreResumé {
+text-align: center;
+        color: #969191;
+        font-weight: bold;
+        
+    }
+
+       .TitreResumé2 {
+        text-align: center;
+        color: #969191;
+        font-weight: bold;
+        
+    }
+
+    .BlocMoriho {
+        display: flex;
+        justify-content: center;
+        gap: 5vw;
+        margin-bottom: 1vw;
+    }
+
+    .Embleme {
+        
+        border: 2px solid #969191;
+    border-radius: 10px;
+    }
+
+    .Embleme figcaption {
+        text-align: center;
+        font-family: "Lexend", sans-sherif;
+        color: #969191;
+    }
+
+    .Embleme img {
+border: 2px solid #969191;
+    border-radius: 7px;
+    padding: 7px;
+    }
+
+    
+
+    .TableauAnime2 {
+        border: 3px solid #969191;
+  border-radius: 10px;
+  color: #969191;
+  
+
+    }
+    .TableauAnime2 th {
+        font-weight: bold;
+    }
+
+    .TableauAnime2 caption {
+        font-weight: bold;
+    }
+
+    
+    .TexteMoriho {
+        color: #969191;
+        font-weight: bold;
+        text-align: center;
+        border: 1px solid #969191;
+  border-radius: 10px;
+  margin: 3vw;
+  padding: 0.3vw;
+        
+    }
+
+    .RohanHouse figcaption {
+        margin-left: 1vw;
+        color: #969191;
+        font-size: 22px;
+    }
+
+    .RohanHouse img {
+        border: 3px solid #969191;
+  border-radius: 10px;
+        height: 500px;
+        width: auto;
+        
+    }
+
+    .PremiersLieuDit {
+        display: flex;
+        justify-content: center;
+    }
+
+    
+
+
+.Resumé {
+    margin: 50px;
+    margin-top: 1px;
+    color: #969191;
+    border: 1px solid #969191;
+    border-radius: 10px;
+    font-family: "Lexend", sans-sherif;
+    text-align: center;
+
+}
+
+.BlocMap {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-bottom: 3vw;
+}
+
+.Map { 
+        width: auto;
+        height: 400px;
+        margin-left: 10vw;
+        margin-top: 1px;
+        color: #969191;
+    border: 3px solid #969191;
+    border-radius: 10px;
+    }
+
+    .Map2 { 
+        width: auto;
+        height: 400px;
+        margin-right: 10vw;
+        margin-top: 1px;
+        color: #969191;
+    border: 3px solid #969191;
+    border-radius: 10px;
+
+    }
+
+.TitrePersonnage {
+   text-align: center;
+        color: #969191;
+        font-weight: bold;
+       border: 1px solid #969191;
+    border-radius: 10px;
+        
+}
+
+.BlocTitrePersonnage {
+    display: flex;
+    justify-content: center;
+ 
+}
+
+.Galerie {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.Galerie img {
+    border: 3px solid #969191;
+    border-radius: 5px;
+}
+
+    /* figure { 
+        color: #969191;
+        font-family: "lexend", sans-sherif;
+        font-weight: bold;
+        text-align: center;
+        border: 5px solid #969191;
+        border-radius: 10px;
+     } */
+
+    .Josuke {
+        color: #969191;
+        font-family: "lexend", sans-sherif;
+        font-weight: bold;
+        text-align: center;
+        border: 5px solid #969191;
+        border-radius: 10px;
+    }
+
+    .standName {
+        width: 10px;
+        background: #f5f2f2;
+        font-style: italic;
+        font-size: small;
+    }
+    
+.Blocperso {
+    display: flex;
+        justify-content: center;
+        gap: 5px;
+        margin-top: 3px;
+}
+
+    .Blocperso img {
+        
+        border: 5px solid #969191;
+        border-radius: 10px;
+    }
+
+    .FooterPerso {
+        margin-top: 5px;
+    }
+
+.Description3 {
+    display: flex;
+    justify-content: center;
+}
+
+    .lorem {
+        color: #969191;
+  font-family: "Roboto Flex", sans-serif;
+  flex: 1;              
+  justify-content: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  max-width: 700px;
+  width: 100%;
+  font-size: 20px;
+    }
+
+.Tableaux {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 10px;
+}
+    
+    .TableauManga {
+        border: 1px solid #ccc;
+  border-radius: 10px;
+  color: #969191;
+
+    }
+    .TableauManga th {
+        font-weight: bold;
+    }
+
+    .TableauManga caption {
+        font-weight: bold;
+    }
+
+    .TableauAnime {
+        border: 1px solid #ccc;
+  border-radius: 10px;
+  color: #969191;
+
+    }
+    .TableauAnime th {
+        font-weight: bold;
+    }
+
+    .TableauAnime caption {
+        font-weight: bold;
+    }
+
+    .Opening {
+        display: flex;
+        justify-content: center;
+    
+    }
+
+    .Opening video {
+        width: 800px;
+        height: 450px;
+        margin: 10px;
+        border: 3px solid #969191;
+  border-radius: 10px;
+    }
+
+    .ResuméParties {
+        display: flex;
+        justify-content: center;
+        color: #969191;
+        border: 1px solid #969191;
+  border-radius: 10px;
+  margin-left: 5vw;
+  margin-right: 7px;
+  padding-top: 2px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 20px;
+
+    }
+
+    .TitreResuméParties {
+margin-left: 7vw;
+margin-bottom: 2px;
+color: #969191;
+font-weight: bold;
+    }
+
+    .BlocResumé2 {
+        display: flex;
+        
+    }
+
+    .BlocIllustration {
+        max-height: 300px;
+margin-right: 3vw;
+    }
+
+    .BlocIllustration img {
+border-radius: 10px;
+    }
+
+    .TitreTomeChapitesEpisodes {
+        display: flex;
+    justify-content: center;
+    width: 100vw;
+     font-family: "Lexend", sans-sherif;
+     margin-right: 12vw;
+     
+     
+
+    }
+
+    .SpinArt {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-family: "Lexend", sans-sherif;
+        color: #969191;
+        font-size: 22px;
+    }
+
+    .BlocIllustration img {
+        width: 500px;
+        height: 215px;
+    }
+
+    .imgFin {
+        margin-top: 30px;
+    }
+
+    .imgFin2 {
+        margin-top: 30px;
+    }
+
+.DescriptionManga {
+    margin-top: 1px;
+    color: #969191;
+    border: 1px solid #969191;
+    border-radius: 10px;
+    font-family: "Lexend", sans-sherif;
+    text-align: center;
+    margin-left: 35vw;
+    margin-right: 35vw;
+    
+}
+
+.TableauMangaListe {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    color: #969191;
+    font-weight: bold;
+    margin-bottom: 5vw;
+    margin-top: 3vw;
+}
+
+.Affiche {
+border: 3px solid #969191;
+    border-radius: 10px;
+}
+
+.Biographie {
+    color: #969191;
+    font-family: "Lexend", sans-sherif;
+    margin: 2vw;
+}
+
+.TableauAraki {
+    display: flex;
+    justify-content: center;
+    margin: 2vw;
+    color: #969191;
+    font-family: "Lexend", sans-sherif;
+
+
+}
+
+.TableauAraki img {
+border: 3px solid #969191;
+    border-radius: 10px;
+}
+
+.Contact body {
+    font-family: Arial, sans-serif;
+  padding: 30px;
+  background-color: #f2f2f2;
+
+}
+
+.Contact form {
+     background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.Contact label {
+    display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.Contact input, textarea {
+width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.Contact button {
+     margin-top: 20px;
+  padding: 10px 15px;
+  background-color: #000000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
